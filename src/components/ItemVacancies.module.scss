@@ -1,0 +1,69 @@
+.itemVacancies {
+  max-width: 725px;
+  background-color: #fff;
+  border-radius: 12px;
+  border: 1px solid #eaebed;
+  padding: 24px;
+  position: relative;
+  h4 {
+    font-family: Inter;
+    font-weight: 600;
+    font-style: Semi Bold;
+    font-size: 20px;
+    color: #5e96fc;
+  }
+  h4::after {
+    position: absolute;
+    right: 24px;
+    top: 24px;
+    content: "";
+    display: inline-block;
+    background-image: url(../assets/star.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 24px;
+    height: 24px;
+  }
+  p {
+    font-family: Inter;
+    font-weight: 600;
+    font-style: Semi Bold;
+    font-size: 16px;
+    color: #232134;
+    margin: 12px 0;
+    span {
+      font-family: Inter;
+      font-weight: 400;
+      font-style: Regular;
+      font-size: 16px;
+      color: #232134;
+    }
+    span::before {
+      margin: 0 12px;
+      content: "•";
+      font-family: Poppins;
+      font-weight: 400;
+      font-style: Regular;
+      font-size: 20px;
+      text-align: center;
+      color: #7b7c88;
+    }
+  }
+  h5 {
+    font-family: Inter;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+    color: #232134;
+  }
+  h5::before {
+    content: "";
+    display: inline-block;
+    background-image: url(../assets/geo.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 14px;
+    height: 16px;
+    margin-right: 8px;
+  }
+}

@@ -1,0 +1,149 @@
+.mainContainerBack {
+  background-color: #f7f7f8;
+  .mainContainer {
+    max-width: 1120px;
+    display: flex;
+    gap: 28px;
+    margin: auto;
+    padding-top: 40px;
+    .filterContainer {
+      display: flex;
+      flex-direction: column;
+      max-width: 315px;
+      height: max-content;
+      padding: 20px;
+      padding-right: 30px;
+      border: 1px solid #eaebed;
+      border-radius: 12px;
+      background-color: #ffffff;
+      h2 {
+        font-family: Inter;
+        font-weight: 700;
+        font-style: Bold;
+        font-size: 20px;
+        color: #232134;
+      }
+      .filter {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        gap: 67px;
+        .secondSpan {
+          position: relative;
+          font-family: Inter;
+          font-weight: 500;
+          font-style: Medium;
+          font-size: 14px;
+          color: #acadb9;
+        }
+        span::after {
+          position: absolute;
+          top: 1px;
+          width: 16px;
+          height: 16px;
+          content: url(../assets/delete.svg);
+        }
+      }
+      .industry {
+        margin-top: 32px;
+      }
+      .chooseContainer {
+        margin-top: 8px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 275px;
+        padding: 11px 12px;
+        border: 1px solid #d5d6dc;
+        border-radius: 8px;
+        p {
+          font-family: Inter;
+          font-weight: 400;
+          font-style: Regular;
+          font-size: 14px;
+          line-height: 20px;
+          vertical-align: middle;
+        }
+        img {
+          background-size: contain;
+
+          width: 14x;
+          height: 6px;
+        }
+      }
+      .salary {
+        margin-top: 20px;
+      }
+      .inputContainer {
+        position: relative;
+        input {
+          margin-top: 8px;
+          padding: 11px 12px;
+          width: 275px;
+          border-radius: 8px;
+          border: 1px solid #d5d6dc;
+        }
+        img {
+          width: 14px;
+          height: 6px;
+          top: 25px;
+          right: 0px;
+          position: absolute;
+        }
+      }
+      .buttonUse {
+        margin-top: 20px;
+        padding: 9.5px 0px;
+        background-color: #5e96fc;
+        border-radius: 8px;
+        border: none;
+        color: #ffffff;
+        font-family: Inter;
+        font-weight: 500;
+        font-style: Medium;
+        font-size: 14px;
+        line-height: 21px;
+        text-align: center;
+      }
+    }
+    .vacanciesContainer {
+      max-width: 773px;
+      input {
+        width: 600px;
+        padding: 13px 11px;
+        border-radius: 8px;
+        border: 1px solid #eaebed;
+        cursor: pointer;
+      }
+      input::placeholder {
+        font-family: Inter;
+        font-weight: 400;
+        font-style: Regular;
+        font-size: 14px;
+        color: #acadb9;
+      }
+      button {
+        margin-left: 30px;
+        width: 83px;
+        height: 32px;
+        border-radius: 8px;
+        border: none;
+        background-color: #5e96fc;
+        font-family: Inter;
+        font-weight: 500;
+        font-style: Medium;
+        font-size: 14px;
+        text-align: center;
+        color: #ffffff;
+        cursor: pointer;
+      }
+    }
+    .vacancies {
+      background-color: rgba(247, 247, 248, 1);
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+      margin-top: 16px;
+    }
+  }
+}

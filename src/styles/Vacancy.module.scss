@@ -1,0 +1,88 @@
+@mixin flex-box($d, $f, $j, $a) {
+  display: $d;
+  flex-direction: $f;
+  justify-content: $j;
+  align-items: $a;
+}
+@mixin font($d, $f, $j, $a, $c) {
+  font-family: $d;
+  font-weight: $f;
+  font-style: $j;
+  font-size: $a;
+  color: $c;
+}
+
+.mainContainer {
+  max-width: 773px;
+  margin: 40px auto;
+
+  @include flex-box(flex, column, flex-start, flex-start);
+  .firstSection {
+    background-color: rgba(255, 255, 255, 1);
+
+    border: 1px solid rgba(234, 235, 237, 1);
+    border-radius: 12px;
+    width: 100%;
+    padding: 24px;
+    @include flex-box(flex, column, flex-start, flex-start);
+    h1 {
+      @include font(Inter, 700, Bold, 28px, rgba(35, 33, 52, 1));
+    }
+    h3 {
+      margin-top: 16.5px;
+      display: flex;
+      align-items: center;
+
+      @include font(Inter, 700, Bold, 20px, rgba(35, 33, 52, 1));
+      line-height: 20px;
+      span {
+        padding-left: 12px;
+        @include font(Inter, 400, Regular, 20px, rgba(35, 33, 52, 1));
+        line-height: 20px;
+      }
+      span::before {
+        padding-right: 12px;
+        content: "•";
+        color: rgba(123, 124, 136, 1);
+      }
+    }
+    .locationContainer {
+      margin-top: 16px;
+      @include flex-box(flex, row, flex-start, center);
+      gap: 8px;
+      p {
+        @include font(Inter, 400, Regular, 16px, rgba(35, 33, 52, 1));
+        line-height: 140%;
+        position: relative;
+      }
+      img {
+        width: 20px;
+      }
+    }
+  }
+  .secondContainer {
+    background-color: rgba(255, 255, 255, 1);
+    margin-top: 20px;
+    width: 100%;
+    padding: 24px;
+    border: 1px solid rgba(234, 235, 237, 1);
+    border-radius: 12px;
+    @include flex-box(flex, column, flex-start, flex-start);
+    .responsibilitiesContainer {
+      @include flex-box(flex, column, flex-start, flex-start);
+      h3 {
+        margin-top: 20px;
+        @include font(Inter, 700, Bold, 20px, rgba(35, 33, 52, 1));
+        line-height: 20px;
+      }
+      ul {
+        list-style-position: inside;
+        margin-top: 16px;
+      }
+      li {
+        @include font(Inter, 400, Regular, 16px, rgba(35, 33, 52, 1));
+        line-height: 140%;
+      }
+    }
+  }
+}
