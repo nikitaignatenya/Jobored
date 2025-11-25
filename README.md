@@ -26,6 +26,7 @@ git clone https://github.com/nikitaignatenya/Jobored
 2. Go to the project folder
 4. Run the dev server:
 npm run dev
+5. Open http://localhost:5173/ with your browser to see the result.
 
 ## Future Plans
 - Possibility to search for vacancies by keywords
