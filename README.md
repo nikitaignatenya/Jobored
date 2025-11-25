@@ -23,7 +23,7 @@ Users can browse job openings, filter by salary, keywords, and categories, acces
 ## Installation and Launch
 1. Clone the repository:
 git clone https://github.com/nikitaignatenya/Jobored
-2. Go to the project folder:
+2. Go to the project folder
 4. Run the dev server:
 npm run dev
 
