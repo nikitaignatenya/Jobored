@@ -2,7 +2,7 @@ import style from "./ItemVacancies.module.scss";
 
 function ItemVacancies({ item }) {
   return (
-    <a href={`/vacancy/${item.id}`}>
+    <a href={`/vacancy/${item.id}`} style={{ textDecoration: "none" }}>
       <div className={style.itemVacancies}>
         <h4>{item.title}</h4>
         <p>
