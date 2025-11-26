@@ -1,5 +1,5 @@
-🌐 **Jobored** is a modern job search SPA app developed in React.
-Users can browse job openings, filter by salary, keywords, and categories, access full job descriptions, and save their favorites to their favorites.
+ ## 🌐 Jobored 
+is a modern job search SPA app developed in React. Users can browse job openings, filter by salary, keywords, and categories, access full job descriptions, and save their favorites to their favorites.
 
 <img width="1094" height="656" alt="image" src="https://github.com/user-attachments/assets/1d0c2dd7-038f-4a9b-a2f9-2aa64dff2ef5" />
 
