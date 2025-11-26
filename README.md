@@ -1,9 +1,14 @@
 **Jobored** is a modern job search SPA app developed in React.
 Users can browse job openings, filter by salary, keywords, and categories, access full job descriptions, and save their favorites to their favorites.
 
+<img width="1094" height="656" alt="image" src="https://github.com/user-attachments/assets/1d0c2dd7-038f-4a9b-a2f9-2aa64dff2ef5" />
+
+
 ## 🔹 Key Features
 - React Router - dynamic routes
 - A separate dynamic page for each vacancy
+
+<img width="947" height="745" alt="image" src="https://github.com/user-attachments/assets/5fe0c321-cbeb-4265-b63c-edb1b9ccfa55" />
 
   
 ## 🔹 Technologies
