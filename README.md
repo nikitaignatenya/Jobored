@@ -20,6 +20,7 @@ Users can browse job openings, filter by salary, keywords, and categories, acces
 - Catalog apps with detailed item pages (real estate, courses, products, events)
 - Any SPA requiring search, filters, and detailed content pages
 
+
 ## Installation and Launch
 1. Clone the repository:
 git clone https://github.com/nikitaignatenya/Jobored
@@ -27,6 +28,15 @@ git clone https://github.com/nikitaignatenya/Jobored
 4. Run the dev server:
 npm run dev
 5. Open http://localhost:5173/ with your browser to see the result.
+
+   ```bash
+1. Clone the repository:
+git clone https://github.com/nikitaignatenya/Jobored
+2. Go to the project folder
+4. Run the dev server:
+npm run dev
+5. Open http://localhost:5173/ with your browser to see the result.
+```
 
 ## Future Plans
 - Possibility to search for vacancies by keywords
