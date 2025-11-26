@@ -29,7 +29,7 @@ git clone https://github.com/nikitaignatenya/Jobored
 npm run dev
 5. Open http://localhost:5173/ with your browser to see the result.
 
-   ```bash
+```bash
 1. Clone the repository:
 git clone https://github.com/nikitaignatenya/Jobored
 2. Go to the project folder
