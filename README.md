@@ -6,6 +6,7 @@ is a modern job search SPA app developed in React. Users can browse job openings
 
 ## 🔹 Key Features
 ✔ React Router - dynamic routes
+<br>
 ✔ A separate dynamic page for each vacancy
 
 <img width="947" height="745" alt="image" src="https://github.com/user-attachments/assets/5fe0c321-cbeb-4265-b63c-edb1b9ccfa55" />
